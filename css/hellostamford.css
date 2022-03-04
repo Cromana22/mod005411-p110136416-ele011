@@ -120,13 +120,13 @@ body {
 }
 /* #endregion */
 
-@media (max-width: 300px) {    /*This media query is purely for the Galaxy Fold phone! */
+@media (max-width: 300px) {     /*This media query is purely for the Galaxy Fold phone! */
     .Title {
         font-size: 1.5em;
     }
 }
 
-@media (max-width: 975px) {    
+@media (max-width: 975px) {     /*Phones*/
     .Nav .Menu {
       display: none;
       position: absolute;
@@ -150,7 +150,7 @@ body {
     }
 }
 
-@media (min-width: 975px) {
+@media (min-width: 975px) {     /*Desktop*/
     .Nav li {
         float: left;
     }
