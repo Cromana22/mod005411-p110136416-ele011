@@ -1,0 +1,161 @@
+/* #region ALIGNMENT AND FORMATTING HELPERS */
+.Fullwidth {
+    width: 100%;
+    display: block;
+}
+
+.VerticalCenter {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.HorizontalCenter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.Left {
+    float: left;
+}
+
+.Right {
+    float: right;
+}
+
+.Hide {
+    display: none;
+}
+
+.Show {
+    display: block;
+}
+/* #endregion */
+
+/* #region PAGE LAYOUT */
+body {
+    background-color: chocolate;
+    color: white;
+    font-family: 'Sanchez', serif;
+}
+
+.PageContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.MainContent {
+    flex: 1;
+}
+/* #endregion */
+
+/* #region TOP NAV */
+.TopNav {
+    background-image: url('../images/bridge-stamford.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    display: grid;
+}
+
+.TopNavGroup {
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+}
+
+.TopNavContainer {
+    display: block;
+    height: 100%;
+}
+
+.Title {
+    font-size: 2em;
+}
+
+.MenuOpener span {
+    background-color: darkred;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.MenuOpener a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.MenuOpener .material-icons {
+    font-size: 36px;
+}
+
+.NavContainer {
+    background-color: darkred;
+    vertical-align: middle;
+}
+
+.NavContainer .Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.NavContainer .Nav a {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.NavContainer .Nav a:hover {
+    background-color: #5e0000;
+}
+/* #endregion */
+
+@media (max-width: 300px) {    /*This media query is purely for the Galaxy Fold phone! */
+    .Title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 767px) {    
+    .Nav .Menu {
+      display: none;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      z-index: 1;
+      background-color: darkred;
+      width: fit-content;
+      height: 100vh;
+      object-fit: contain;
+    }
+    
+    .Nav .Menu a {
+        text-align: center;
+    }
+
+    #menuopener2 a {
+        text-align: right !important;
+        border-bottom: solid;
+        border-width: 1px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Nav li {
+        float: left;
+    }
+
+    .MenuOpener {
+        display: none;
+    }
+}
