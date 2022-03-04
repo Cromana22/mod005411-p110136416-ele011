@@ -126,7 +126,7 @@ body {
     }
 }
 
-@media (max-width: 767px) {    
+@media (max-width: 975px) {    
     .Nav .Menu {
       display: none;
       position: absolute;
@@ -150,7 +150,7 @@ body {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 975px) {
     .Nav li {
         float: left;
     }
