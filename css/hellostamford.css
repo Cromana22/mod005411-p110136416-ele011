@@ -25,20 +25,28 @@
     float: right;
 }
 
-.Hide {
-    display: none;
+.TextOutlineDark {
+    text-shadow:
+        1px 0px 0px #3b3b3b,
+        -1px 0px 0px #3b3b3b,
+        0px 1px 0px #3b3b3b,
+        0px -1px 0px #3b3b3b,
+        1px 1px 0px #3b3b3b,
+        -1px -1px 0px #3b3b3b,
+        1px -1px 0px #3b3b3b,
+        -1px 1px 0px #3b3b3b;
 }
 
-.Show {
-    display: block;
+.FillRemainder {
+    flex-grow: 1;
 }
 /* #endregion */
 
 /* #region PAGE LAYOUT */
 body {
-    background-color: chocolate;
-    color: white;
-    font-family: 'Sanchez', serif;
+    background-color: #f0e3c6;
+    color: #493b22;
+    font-family: serif;
 }
 
 .PageContainer {
@@ -58,45 +66,98 @@ body {
 
 /* #region TOP NAV */
 .TopNav {
-    background-image: url('../images/bridge-stamford.jpg');
+    background-image: url('../images/bridge-stamford-panorama.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: sticky;
     top: 0;
     display: grid;
+    box-shadow: 0px 5px #00000020;
 }
 
 .TopNavGroup {
     grid-template-columns: 1fr 1fr;
-    margin: 15px;
+    height: 80px;
+    display: flex;
 }
 
 .TopNavContainer {
     display: block;
     height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.Title {
-    font-size: 2em;
+.Title h1 {
+    font-size: clamp(1em, -1.8em + 16vw, 3em);
+    font-weight: bolder;
+    font-family: 'Courgette', cursive;
+    color: goldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    text-shadow:
+        2px 0px 0px #493b22,
+        -2px 0px 0px #493b22,
+        0px 2px 0px #493b22,
+        0px -2px 0px #493b22,
+        2px 2px 0px #493b22,
+        -2px -2px 0px #493b22,
+        2px -2px 0px #493b22,
+        -2px 2px 0px #493b22;
 }
 
+.MenuOpener {
+    max-height: 100%;
+    height: 100%;
+    min-height: 100%;
+}
 .MenuOpener span {
-    background-color: darkred;
-    border-radius: 5px;
-    padding: 10px;
+    background-color: #6b5731;
+    border-radius: 10px;
+    padding: 5px;
+    max-height: 100%;
+}
+
+#menuopener span {
+    border-style: solid;
+    border-color: #f0e3c6;
+    border-width: 1px;
+    color: white;
+}
+
+#menuopener2 span {
+    border-style: none;
+}
+#menuopener2 a {
+    border-style: none;
+    min-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#menuopener2 .IconHolder {
+    min-height: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .MenuOpener a, a:hover, a:active, a:visited {
     text-decoration: none;
     color: inherit;
+    max-height: 100%;
 }
 
 .MenuOpener .material-icons {
-    font-size: 36px;
+    font-size: 24px;
+}
+
+.MenuRight {
+    float: right !important;
 }
 
 .NavContainer {
-    background-color: darkred;
+    background-color: #6b5731;
     vertical-align: middle;
 }
 
@@ -104,7 +165,6 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .NavContainer .Nav a {
@@ -113,18 +173,22 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     color: white;
+    font-size: 0.8em;
 }
 
 .NavContainer .Nav a:hover {
-    background-color: #5e0000;
+    background-color: #493b22;
 }
 /* #endregion */
 
-@media (max-width: 300px) {     /*This media query is purely for the Galaxy Fold phone! */
-    .Title {
-        font-size: 1.5em;
-    }
+/* #region MAIN CONTENT PAGE TITLE */
+.ContentTitle {
+    margin: 10px;
+    font-size: 1em;
+    text-decoration: underline overline;
+    text-underline-offset: 4px;
 }
+/* #endregion */
 
 @media (max-width: 975px) {     /*Phones*/
     .Nav .Menu {
@@ -133,20 +197,33 @@ body {
       right: 0px;
       top: 0px;
       z-index: 1;
-      background-color: darkred;
+      background-color: #6b5731;
       width: fit-content;
       height: 100vh;
       object-fit: contain;
+      overflow-y: scroll;
+      scrollbar-width: 0;               /* all to hide a scrollbar... */
+      -ms-overflow-style: none;         /* all to hide a scrollbar... */
+    }
+
+    .Menu::-webkit-scrollbar {          /* all to hide a scrollbar... */
+        width: 0;
+        height: 0;
     }
     
     .Nav .Menu a {
         text-align: center;
+        font-size: 0.7em;
     }
 
     #menuopener2 a {
         text-align: right !important;
         border-bottom: solid;
         border-width: 1px;
+    }
+
+    .MenuRight {
+        float: none !important;
     }
 }
 
@@ -157,5 +234,14 @@ body {
 
     .MenuOpener {
         display: none;
+    }
+
+    .Nav .Menu {
+        display: block;
+    }
+
+    .Nav .Menu a {
+        text-align: center;
+        font-size: 1em;
     }
 }

@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="css/hellostamford.css">
     
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"&display=swap" rel="stylesheet">
     
         <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
@@ -29,13 +32,15 @@
         <div class="PageContainer">
             <div class="TopNav Fullwidth">
                 <div class="TopNavGroup">
-                    <div class="TopNavContainer Left Title">
+                    <div class="TopNavContainer Left FillRemainder">
                         <div class="VerticalCenter">
-                            Hello Stamford!
+                            <div class="HorizontalCenter FillRemainder Title">
+                                <h1>Hello Stamford!</h1>
+                            </div>
                         </div>
                     </div>
                     <div class="TopNavContainer Right">
-                        <div class="MenuOpener" id="menuopener">
+                        <div class="MenuOpener VerticalCenter" id="menuopener">
                             <a class="VerticalCenter" href="#"><span class="material-icons">menu</span></a>
                         </div>
                     </div>
@@ -46,7 +51,11 @@
                             <ul>
                                 <li>
                                     <div class="MenuOpener" id="menuopener2">
-                                        <a class="VerticalCenter" href="#"><span class="material-icons">close</span></a>
+                                        <a href="#">
+                                            <div class="IconHolder">
+                                                <span class="material-icons">close</span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </li>
                                 <li><a href="/index.html">Home</a></li>
@@ -57,14 +66,20 @@
                                 <li><a href="/events.html">Events</a></li>
                                 <li><a href="/planyourvisit.html">Plan Your Visit</a></li>
                                 <li><a href="/findus.html">Find Us</a></li>
-                                <li><a href="/contactus.html">Contact Us</a></li>
+                                <li class="MenuRight"><a href="/contactus.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="MainContent"></div>
+            <div class="ContentTitle HorizontalCenter">
+                <h2>&nbsp Welcome To "Hello Stamford!" &nbsp</h2>
+            </div>
+
+            <div class="MainContent">
+
+            </div>
         </div>
     </body>
 
