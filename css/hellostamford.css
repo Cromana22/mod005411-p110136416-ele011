@@ -64,7 +64,7 @@ body {
 }
 /* #endregion */
 
-/* #region TOP NAV */
+/* #region TOP TITLE */
 .TopNav {
     background-image: url('../images/bridge-stamford-panorama.jpg');
     background-repeat: no-repeat;
@@ -105,6 +105,34 @@ body {
         -2px -2px 0px #493b22,
         2px -2px 0px #493b22,
         -2px 2px 0px #493b22;
+}
+/* #endregion */
+
+/* #region TOP NAV */
+.NavContainer {
+    background-color: #6b5731;
+    vertical-align: middle;
+}
+
+.NavContainer .Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavContainer .Nav a {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.NavContainer .Nav a:hover {
+    background-color: #493b22;
 }
 
 .MenuOpener {
@@ -155,30 +183,6 @@ body {
 .MenuRight {
     float: right !important;
 }
-
-.NavContainer {
-    background-color: #6b5731;
-    vertical-align: middle;
-}
-
-.NavContainer .Nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.NavContainer .Nav a {
-    display: block;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: white;
-    font-size: 0.8em;
-}
-
-.NavContainer .Nav a:hover {
-    background-color: #493b22;
-}
 /* #endregion */
 
 /* #region MAIN CONTENT PAGE TITLE */
@@ -209,11 +213,6 @@ body {
     .Menu::-webkit-scrollbar {          /* all to hide a scrollbar... */
         width: 0;
         height: 0;
-    }
-    
-    .Nav .Menu a {
-        text-align: center;
-        font-size: 0.7em;
     }
 
     #menuopener2 a {
