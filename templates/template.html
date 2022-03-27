@@ -26,7 +26,6 @@
         <title>Hello Stamford!</title>
 
         <script id="openingtimes" src="js/navmenu.js" defer></script>
-        <script src="js/modals.js" defer></script>
         <script id="dynamicfacts" src="js/dynamicinfo.js"></script><script id="dynamicfact" defer>randomfact()</script>
     </head>
 
@@ -75,33 +74,20 @@
             </div>
 
             <div class="ContentTitle HorizontalCenter">
-                <h2>&nbsp Got a Question or Comment? &nbsp</h2>
+                <h2>&nbsp Welcome To "Hello Stamford!" &nbsp</h2>
             </div>
 
             <div class="MainContent">
-                <div class="Fullwidth">
-                    <div class="Container HorizontalCenter">
-                        <form id="contactUsForm">
-                            <div class="FullWidth">
-                                <label>Name: &nbsp</label>
-                                <input type="text" name="name" placeholder="Your name"></input>
-                            </div>
-                            <div class="FullWidth">
-                                <label>Email: &nbsp</label>
-                                <input type="email" name="email" placeholder="Your email address"></input>
-                            </div>
-                            <div class="FullWidth">
-                                <label>Subject: &nbsp</label>
-                                <input type="text" name="subject" placeholder="Subject"></input>
-                            </div>
-                            <br />
-                            <label>Message:<br /></label>
-                            <textarea name="message" placeholder="What would you like to tell us?" form="contactUsForm" rows="10"></textarea>
-                            <br /><br />
-                            <div class="buttonDiv HorizontalCenter">
-                                <button id="contactUs" onclick="document.getElementById('contactUsForm').reset()">Send <i class="fa-solid fa-paper-plane"></i></button>
-                            </div>
-                        </form>
+                <div class="Intro Fullwidth">
+                    <div class="Container">
+                        <h3>Heading</h3>
+                        <p>Intro</p>
+                    </div>
+                </div>
+
+                <div class="Highlight Fullwidth">
+                    <div class="Grid Container">
+                        <div class="GridItem" id="highlightevent">Grid Item</div>
                     </div>
                 </div>
             </div>
@@ -122,20 +108,6 @@
                         <a class="VerticalCenter" href="https://www.youtube.com/watch?v=eR8tg18G7KQ">
                             <i class="fa-brands fa-youtube-square"></i>
                         </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="Modal Hide" id="contactUsSent">
-                <div class="ModalContent HorizontalCenter">
-                    <div class="VerticalCenter">
-                        <div>
-                            You message has been sent successfully.<br /><br />
-                            Thank you for getting in contact, we aim to respond within 3 working days.<br /><br />
-                            <div id="sendSuccess">
-                                <i class="fa-solid fa-circle-check"></i>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
