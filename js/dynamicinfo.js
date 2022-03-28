@@ -60,8 +60,6 @@ function hotels() {
                 hotelGrid.appendChild(gridItem);
             });
         }
-
-        hotelGrid.innerHTML = grid;
     })
 }
 
