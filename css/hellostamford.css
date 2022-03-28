@@ -82,6 +82,14 @@ body {
     padding: 10px;
     max-height: 636px;
 }
+
+.Grid :hover {
+    box-shadow: 5px 5px 8px #493b22;
+}
+
+.GridItem :hover {
+    box-shadow: none;
+}
 /* #endregion */
 
 /* #region MODALS */
@@ -307,14 +315,6 @@ h3{
     -webkit-line-clamp: 4; /* number of lines to show */
     -webkit-box-orient: vertical;
     text-align: justify;
-}
-
-#hotelGrid :hover {
-    box-shadow: 5px 5px 8px #493b22;
-}
-
-#hotelGrid .GridItem :hover {
-    box-shadow: none;
 }
 
 #hotelGrid img {
