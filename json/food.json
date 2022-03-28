@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Orbis Stamford",
+        "stars": 5,
+        "reviewcount": 222,
+        "cuisine": "International",
+        "reviews": ["... duck sushi, the best king scallops ever, and short rib of beef to die for.", "My wife had the prawns which she said were gorgeous."]
+    },
+    {
+        "name": "Zada Restaurant",
+        "stars": 4.5,
+        "reviewcount": 1573,
+        "cuisine": "Turkish, Mediterranean",
+        "reviews": ["... going back..probably tonight for another plate of lamb chops.. beautiful!!!", "Fantastic Turkish restaurant in Stamford"]
+    },
+    {
+        "name": "Cloisters",
+        "stars": 4.5,
+        "reviewcount": 711,
+        "cuisine": "Italian, Pizza",
+        "reviews": ["Cheerful friendly and great pizza!", "... with pasta dishes leave a bit, as i..."]
+    },
+    {
+        "name": "The Exeter Arms",
+        "stars": 5,
+        "reviewcount": 92,
+        "cuisine": "British",
+        "reviews": ["We had the beef; beautifully cooked, tasty interesting vegetables, the best r...", "Lovely helpful staff, great service and excellent food, the beef was superb."]
+    },
+    {
+        "name": "The Slanted Door",
+        "stars": 4.5,
+        "reviewcount": 152,
+        "cuisine": "British, Healthy",
+        "reviews": ["There is a separate vegan/vegetarian menu.", "Excellent vegan range, though vegan pud..."]
+    },
+    {
+        "name": "Lambert's",
+        "stars": 4.5,
+        "reviewcount": 279,
+        "cuisine": "Cafe, British",
+        "reviews": ["A long wait for a table, but great sandwich", "I had eggs benedict, personally their only downfall is not enough sauce and t..."]
+    },
+    {
+        "name": "The Mad Turk",
+        "stars": 4.5,
+        "reviewcount": 1391,
+        "cuisine": "Mediterranean, Turkish",
+        "reviews": ["Had the whipped feta and loaded hummus - both amazing and the T-bone steak wa...", "... were a little spicy (I am a wimp) but amazing and the hummus is a must."]
+    },
+    {
+        "name": "Paten & Co",
+        "stars": 4.5,
+        "reviewcount": 276,
+        "cuisine": "Bar, Pub",
+        "reviews": ["... sausage, cauliflower croquettes, lamb kofta etc was superb Staff are soo ...", "... was accommodating and did a meal mash-up which suited them very well."]
+    },
+    {
+        "name": "The Kings Head",
+        "stars": 4.5,
+        "reviewcount": 472,
+        "cuisine": "Bar, British",
+        "reviews": ["Wonderful Team Burger Night Out", "I'm a vegan and my no moo burger was amazing !!!"]
+    },
+    {
+        "name": "The Tobie Norris",
+        "stars": 4.5,
+        "reviewcount": 758,
+        "cuisine": "Bar, Pizza",
+        "reviews": ["We shared the meaty Mac and cheese and the duck pizza and I can honestly say...", "My husband had the pizza wrap with duck, spring onions and hoisin sauce which..."]
+    }
+]

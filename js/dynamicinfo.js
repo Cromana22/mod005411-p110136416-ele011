@@ -16,7 +16,7 @@ function loadData(method, url) {
 }
 
 function randomfact() {
-    loadData("GET", "./js/facts.json")
+    loadData("GET", "./json/facts.json")
     .then(data => {
         const factP = document.getElementById("facts");
         if (factP !== null) {
@@ -24,5 +24,33 @@ function randomfact() {
             const factNo = Math.floor(Math.random() * factslist["facts"].length);
             factP.innerHTML = factslist["facts"][factNo];
         }
+    })
+}
+
+function hotels() {
+    loadData("GET", "./json/accomodation.json")
+    .then(data => {
+        console.log(data);
+    })
+}
+
+function events() {
+    loadData("GET", "./json/events.json")
+    .then(data => {
+        console.log(data);
+    })
+}
+
+function food() {
+    loadData("GET", "./json/food.json")
+    .then(data => {
+        console.log(data);
+    })
+}
+
+function history() {
+    loadData("GET", "./json/history.json")
+    .then(data => {
+        console.log(data);
     })
 }

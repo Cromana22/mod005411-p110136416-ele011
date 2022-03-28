@@ -1,0 +1,43 @@
+[
+    {
+        "name": "St Mary's Passage",
+        "stars": 4.8,
+        "address": "9 St Mary's Hill",
+        "telephone": "",
+        "review": ""
+    },
+    {
+        "name": "St Leonard's Priory, Stamford",
+        "stars": 4.5,
+        "address": "Priory Road",
+        "review": "For a small, by the way, historical attraction, this is a charmer."
+    },
+    {
+        "name": "Stamford Castle",
+        "stars": 0,
+        "address": "15 Warrenne Keep",
+        "telephone": "",
+        "review": ""
+    },
+    {
+        "name": "St Martin's Church",
+        "stars": 4.5,
+        "address": "16, 18 High St",
+        "telephone": "01780 753356",
+        "review": "You will enjoy the experience of the visit for this historic Chapel"
+    },
+    {
+        "name": "All Saints Church",
+        "stars": 4.5,
+        "address": "All Saints Church, All Saints' Place",
+        "telephone": "",
+        "review": "Very much like a cotswold town"
+    },
+    {
+        "name": "St Mary's Church",
+        "stars": 4.4,
+        "address": "St Mary's Hill, St Mary's Pl",
+        "telephone": "01780 723798",
+        "review": "Built in the 12th century, this Church of England parish church features stained glass & an organ."
+    }
+]

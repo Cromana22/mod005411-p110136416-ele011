@@ -1,0 +1,464 @@
+[
+    {
+      "event_id": "1264b8f2-27f5-d79d-12ee-8d16001b3b51",
+      "name": "Discover our Hidden Gem - Stamford Walking Tour",
+      "modified_ts": "2022-03-27T03:21:21",
+      "schedules": [
+        {
+          "place_id": "7654b8b5-81f5-d79d-89d2-9ed50001e4e1",
+          "start_ts": "2022-03-27T11:00:00+01:00",
+          "place": {
+            "name": "Stamford Town Hall",
+            "place_id": "7654b8b5-81f5-d79d-89d2-9ed50001e4e1"
+          },
+          "performances": [
+            {
+              "ts": "2022-03-30T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "7.50"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-nicola-sandall/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-03-30/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-03-31T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "7.50"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-bill-cunningham/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-03-31/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-02T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-jim-grant/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-04-02/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-03T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-nicola-sandall/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-04-03/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-06T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-nicola-sandall/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-04-06/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-07T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-nicola-sandall/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-04-07/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-09T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-simon-whatling/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-04-09/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-10T11:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "7.50"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-jim-grant/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour/2022-04-10/11:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "5854b833-e1f5-d79d-b432-d916001aea70",
+      "name": "Funhouse Comedy Club - Comedy Night",
+      "modified_ts": "2022-03-16T01:51:01",
+      "schedules": [
+        {
+          "place_id": "a264b834-1ff5-d79d-01ee-69c50001c921",
+          "start_ts": "2022-03-30T20:00:00+01:00",
+          "place": {
+            "name": "The Blue Bell",
+            "place_id": "a264b834-1ff5-d79d-01ee-69c50001c921"
+          },
+          "performances": [
+            {
+              "ts": "2022-03-30T20:00:00+01:00",
+              "duration": 180,
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "0"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.skiddle.com/whats-on/Peterborough/The-Blue-Bell-Easton-On-The-Hill/Funhouse-Comedy-Club---Comedy-Night/36038945/?sktag=14204",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "0854b8a2-d6f5-d79d-ef31-0226001bcfab",
+      "name": "Voodoo Stands Up",
+      "modified_ts": "2022-03-03T17:25:01",
+      "schedules": [
+        {
+          "place_id": "2754b8b1-2c42-bb9a-55ac-9c5500011bb9",
+          "start_ts": "2022-03-31T20:00:00+01:00",
+          "place": {
+            "name": "The Voodoo Lounge",
+            "place_id": "2754b8b1-2c42-bb9a-55ac-9c5500011bb9"
+          },
+          "performances": [
+            {
+              "ts": "2022-03-31T20:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "11"
+                }
+              ],
+              "links": [
+                {
+                  "url": "http://www.wegottickets.com/af/488/event/540591",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "2d54b871-faf5-d79d-b6a4-3f16001b7013",
+      "name": "comedy night",
+      "modified_ts": "2022-03-08T01:47:55",
+      "schedules": [
+        {
+          "place_id": "e574b8b7-35f5-d79d-beba-ebb50001b776",
+          "start_ts": "2022-03-31T20:30:00+01:00",
+          "place": {
+            "name": "Mama Liz's",
+            "place_id": "e574b8b7-35f5-d79d-beba-ebb50001b776"
+          },
+          "performances": [
+            {
+              "ts": "2022-03-31T20:30:00+01:00",
+              "duration": 150,
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "0"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.skiddle.com/whats-on/Peterborough/Mama-Liz%27s---Voodoo-Lounge/comedy-night/36031531/?sktag=14204",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "6264b8f2-27f5-d79d-22ee-8d16001b3b56",
+      "name": "Discover our Hidden Gem - Stamford Walking Tour",
+      "modified_ts": "2022-03-26T10:48:45",
+      "schedules": [
+        {
+          "place_id": "7654b8b5-81f5-d79d-89d2-9ed50001e4e1",
+          "start_ts": "2022-04-01T14:00:00+01:00",
+          "place": {
+            "name": "Stamford Town Hall",
+            "place_id": "7654b8b5-81f5-d79d-89d2-9ed50001e4e1"
+          },
+          "performances": [
+            {
+              "ts": "2022-04-01T14:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-jill-collinge/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour-2pm/2022-04-01/14:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            },
+            {
+              "ts": "2022-04-08T14:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.ticketsource.co.uk/whats-on/lincs-pe9-2dr-your-guide-is-nicola-sandall/the-mayors-guides-leave-from-stamford-town-hall/discover-our-hidden-gem-stamford-walking-tour-2pm/2022-04-08/14:00?affid=6462",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "e654b8a4-a9f5-d79d-96dd-d716001aab87",
+      "name": "Crystal Lake Presents - Dishonour The Crown",
+      "modified_ts": "2021-11-06T00:00:42",
+      "schedules": [
+        {
+          "place_id": "2754b8b1-2c42-bb9a-55ac-9c5500011bb9",
+          "start_ts": "2022-04-01T19:30:00+01:00",
+          "place": {
+            "name": "The Voodoo Lounge",
+            "place_id": "2754b8b1-2c42-bb9a-55ac-9c5500011bb9"
+          },
+          "performances": [
+            {
+              "ts": "2022-04-01T19:30:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "7.70"
+                }
+              ],
+              "links": [
+                {
+                  "url": "http://www.wegottickets.com/af/488/event/529758",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "8754b894-2f42-bb9a-0323-04250005a441",
+      "name": "Police Dog Hogan",
+      "modified_ts": "2022-03-03T01:50:40",
+      "schedules": [
+        {
+          "place_id": "0000e942-875d-343d-fe29-21050000b4d5",
+          "start_ts": "2022-04-01T20:00:00+01:00",
+          "place": {
+            "name": "Stamford Arts Centre",
+            "place_id": "0000e942-875d-343d-fe29-21050000b4d5"
+          },
+          "performances": [
+            {
+              "ts": "2022-04-01T20:00:00+01:00",
+              "duration": 180,
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "18"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://www.skiddle.com/whats-on/Peterborough/Stamford-Arts-Centre/Police-Dog-Hogan/35977125/?sktag=14204",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "3854b8b1-0bf5-d79d-7f07-d126001bca1b",
+      "name": "Rob Lynch",
+      "modified_ts": "2022-03-01T17:25:01",
+      "schedules": [
+        {
+          "place_id": "2754b8b1-2c42-bb9a-55ac-9c5500011bb9",
+          "start_ts": "2022-04-02T19:00:00+01:00",
+          "place": {
+            "name": "The Voodoo Lounge",
+            "place_id": "2754b8b1-2c42-bb9a-55ac-9c5500011bb9"
+          },
+          "performances": [
+            {
+              "ts": "2022-04-02T19:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "5.50"
+                }
+              ],
+              "links": [
+                {
+                  "url": "http://www.wegottickets.com/af/488/event/540410",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "7754b831-97f5-d79d-a8bf-a0d50014494f",
+      "name": "Mark Thomas: 50 Things About Us",
+      "modified_ts": "2022-03-24T01:24:44",
+      "schedules": [
+        {
+          "place_id": "eb54b876-8342-bb9a-93f0-c2350000e4ff",
+          "start_ts": "2022-04-05T20:00:00+01:00",
+          "place": {
+            "name": "Stamford Corn Exchange Theatre Company & Theatre Lounge",
+            "place_id": "eb54b876-8342-bb9a-93f0-c2350000e4ff"
+          },
+          "performances": [
+            {
+              "ts": "2022-04-05T20:00:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "min_price": "17.50"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://ticketmaster-uk.tm7559.net/c/221842/431519/7559?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fhit-refresh-mark-thomas-50-things-stamford-04-05-2022%2Fevent%2F37005C38B3CA5D32",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "ae487037-f09c-00ca-1b7d-c126001b4bbf",
+      "name": "Pebble on the Beach",
+      "modified_ts": "2022-02-28T14:10:05",
+      "schedules": [
+        {
+          "place_id": "0000e942-875d-343d-fe29-21050000b4d5",
+          "start_ts": "2022-04-06T14:30:00+01:00",
+          "place": {
+            "name": "Stamford Arts Centre",
+            "place_id": "0000e942-875d-343d-fe29-21050000b4d5"
+          },
+          "performances": [
+            {
+              "ts": "2022-04-06T14:30:00+01:00",
+              "tickets": [
+                {
+                  "type": "Standard",
+                  "currency": "GBP",
+                  "max_price": "10",
+                  "min_price": "8"
+                }
+              ],
+              "links": [
+                {
+                  "url": "https://fantasticforfamilies.com/events/16732/pebble-on-the-beach?StartDate=2022-04-06-1430&EndDate=2022-04-06-1530",
+                  "type": "booking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
