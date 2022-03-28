@@ -178,6 +178,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 1.3em;
 }
 
 .NavContainer .Nav a {
@@ -187,7 +188,6 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    font-size: 1em;
     text-align: center;
 }
 
@@ -269,7 +269,15 @@ h3{
 /* #region HOME */
 .Intro p{
     text-align: justify;
-    word-break:normal;
+    word-break: normal;
+}
+
+.Intro a {
+    text-decoration: none;
+}
+
+.Intro a :hover {
+    text-decoration: underline;
 }
 
 #facts {
@@ -284,6 +292,42 @@ h3{
 
 .Facts {
     border: #493b22 solid;
+}
+/* #endregion */
+
+/* #region PLACES TO STAY */
+#hotelGrid {
+    text-align: justify;
+}
+
+#hotelGrid p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+
+#hotelGrid :hover {
+    box-shadow: 5px 5px 8px #493b22;
+}
+
+#hotelGrid .GridItem :hover {
+    box-shadow: none;
+}
+
+#hotelGrid img {
+    width: 100%;
+}
+
+#hotelGrid .Address {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    font-style: italic;
+    font-size: smaller;
+    text-align: center !important;
 }
 /* #endregion */
 

@@ -2,37 +2,31 @@
     {
         "accomodation": "The Bull And Swan",
         "address": "24 High Street, Stamford, Cambridgeshire, PE9 2LJ",
-        "distance": 0.7,
+        "image": "https://www.hillbrookehotels.co.uk/the-bull-and-swan/wp-content/uploads/sites/3/2022/03/Hillbrooke-Stamford-Environs-100sm.jpg",
         "description": "Once upon a time there was a drinking club at Burghley House. It was founded by The 5th Earl of Exeter in 1684 and it was called The Honourable Order of Little Bedlam. It had an eclectic bunch of members: The Baptist Earl of Gainsborough was known as Greyhound, The Hon Charles Bertie was The Stag and The Earl of Denbigh was Tyger amongst other nefarious characters. We are not sure who The Bull (rumoured to be The Hon Charles Cecil) and The Swan were and nor are we sure that the club dined at this historic Stamford Public House….but it is highly likely they did. They would have drunk locally brewed ales, feasted on Burghley Estate and other local produce and created total bedlam. Things have a habit of coming round and we look forward to inviting you to dine on our local produce, sup our fine ales and obviously behave very, very well! PS Sorry - forgot to say that we have the best kept secret in Stamford amazing bedrooms….7 of them….incredibly comfortable….great size…showers and baths and rather good value."
     },
     {
         "accomodation": "The Crown Hotel",
         "address": "6 All Saints Place, Stamford, Cambridgeshire, PE9 2AG",
-        "distance": 0.3,
+        "image": "https://www.kneadpubs.co.uk/sites/default/files/styles/header_image_2017/public/Crown_Room01-1.jpg?itok=GIBDkfLb",
         "description": "The Crown Hotel is set in the historic town centre of Stamford. The Crown has been transformed into a contemporary and stylish boutique hotel. All the traditional features have been retained whilst the best of new technology has been installed throughout. We have an attractive lounge with a fire in the winter. There is also an attractive heated patio area for al fresco dining. The bedrooms are located in three separate buildings - all bedrooms are unique and individual and offer private/en-suite facilities, satellite TV, hairdryer, and tea & coffee making facilities."
     },
     {
         "accomodation": "George Hotel Of Stamford",
-        "address": "High Street, st. Martins, Stamford, Cambridgeshire, PE9 2LB",
-        "distance": 0.5,
+        "address": "High Street, St. Martins, Stamford, Cambridgeshire, PE9 2LB",
+        "image": "https://www.georgehotelofstamford.com/sites/default/files/uploaded/ROOM%2016%20wb_1.jpg",
         "description": "The George Hotel of Stamford is a 16th century coaching inn situated in the heart of the historical town of Stamford. The hotel is easily accessible from the A1 with ample complimentary parking onsite. The hotel offers two fabulous restaurants the Oak Panelled Restaurant and the Garden Room. The Oak Panelled Restaurant is justly famous for the quality of its cuisine, service and superb setting. The Garden Room is a relaxed, informal place to meet and dine yet retains the hotel s commitment to quality in food and service. All 47 bedrooms are individually designed with great flair and imagination, using only the finest materials, with en-suite bathroom, complimentary wireless internet connection, trouser press, hairdryer and flat screen television. A jacket is respectfully requested for gentleman when dining in the Oak Panelled Restaurant, jeans and sportswear are not permitted."
-    },
-    {
-        "accomodation": "Gwynne House",
-        "address": "13, Kings Road, Stamford, Cambridgeshire, PE9 1HD",
-        "distance": 0.3,
-        "description": "Gwynne House is a small family run bed and breakfast located in the historic town of Stamford Lincolnshire. At Gwynne House we have over 10 years of experience providing accommodation and ensuring that all our guests feel at home. The house has, over the years, been modernized and extended in keeping its character and today provides accommodation (given a 3 Star rating by the Visit Britain Tourist Board) for 6 guests in three tastefully decorated bedrooms. We are within 6 minutes walk of the beautiful town centre of Stamford and about 15 minutes from Stamford train station allowing you easy access to all amenities while spending a good night sleep in a quite part of the town. All guest rooms have been recently renovated and re-furnished to make your stay at Gwynne House more comfortable. The rooms have quality, modern, sliding sash or German turn-and-tilt double glazed windows and lined curtains."
     },
     {
         "accomodation": "The Royal Oak",
         "address": "High Street Duddington, Stamford, Leicestershire, PE9 3QE",
-        "distance": 4.8,
+        "image": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/171760709.jpg?k=9a194a09042803273a840e979def6e61075c55a1bfd7e628fb01fd06075a0784&o=&hp=1",
         "description": "A true gem set in the quiet heart of the Welland Valley s meandering countryside, this traditional family run country hotel has recently gone through an extensive refurbishment programme led by the proprietors Allen and Julia Freeman. Their exacting standards have resulted in a completely fresh, sumptuous new look for the lounge, restaurant and bedrooms. However, all care has been taken to preserve the historical integrity of the site, which is a source of pride to the local community. All five en-suite bedrooms have TV, tea/coffee making facilities and each commands a stunning view of the open countryside. After a good nights sleep in our luxurious beds you ll feel refreshed, relaxed and ready for a traditional full English breakfast. Our home produced bar meals and snacks are all freshly prepared on the premises, giving you a wide variety to choose from. So perhaps consider your choice over our ample selection of real ales, spirits, premium ales, lagers and soft drinks."
     },
     {
         "accomodation": "The William Cecil",
         "address": "36-38 High Street, Stamford, Cambridgeshire, PE9 2LJ",
-        "distance": 0.7,
+        "image": "https://www.hillbrookehotels.co.uk/the-william-cecil/wp-content/uploads/sites/4/2019/02/cBK2-B2Y.jpeg",
         "description": "Ideally located just a 2 minute drive from the A1 at Stamford with quick rail links to London and the North. This luxury hotel has its own unique charm and character offering free Wi-Fi and on site parking. A popular restaurant serving delicious recipies from local fresh produce. With a direct access footpath to walk into the parklands, this offers the perfect retreat for both leisure and business users. The hotel lies within the magnificent Burghley Estate, one of the foremost Treasure Houses of the United Kingdom. Add this to the beauty of Stamford and this must be one of the best located hotels in the country. Bedrooms comprise of Classic, Superior and Deluxe and all with comfy beds and Egyptian cotton linen, complimentary organic vodkas by your bed and wonderfully aromatic bathroom products. The interior has been completed by an award-winning interior designer, complemented by bespoke original furnishings using Burghley House for inspiration. The Restaurant offers uncomplicated seasonal tasty food, the Head Chef along with the team is keen to make the menu as equally enticing as it is simple, with something for everyone s taste."
     }
 ]

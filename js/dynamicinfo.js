@@ -30,7 +30,38 @@ function randomfact() {
 function hotels() {
     loadData("GET", "./json/accomodation.json")
     .then(data => {
-        console.log(data);
+        const hotelGrid = document.getElementById("hotelGrid");
+
+        if (hotelGrid !== null) {
+            const hotelList = JSON.parse(data);
+
+            hotelList.forEach(hotel => {
+                gridItem = document.createElement('div');
+                gridItem.className = 'GridItem HorizontalCenter';
+
+                hname = document.createElement('h4');
+                hname.innerHTML = hotel.accomodation;
+                gridItem.appendChild(hname);
+
+                haddress = document.createElement('p');
+                haddress.className = 'Address';
+                haddress.innerHTML = hotel.address;
+                gridItem.appendChild(haddress);
+
+                himg = document.createElement('img');
+                himg.src = hotel.image;
+                himg.alt = hotel.accomodation;
+                gridItem.appendChild(himg);
+
+                hdescription = document.createElement('p');
+                hdescription.innerHTML = hotel.description;
+                gridItem.appendChild(hdescription);
+
+                hotelGrid.appendChild(gridItem);
+            });
+        }
+
+        hotelGrid.innerHTML = grid;
     })
 }
 
@@ -48,7 +79,7 @@ function food() {
     })
 }
 
-function history() {
+function histories() {
     loadData("GET", "./json/history.json")
     .then(data => {
         console.log(data);
