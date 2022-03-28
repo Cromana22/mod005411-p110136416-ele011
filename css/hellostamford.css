@@ -171,6 +171,10 @@ body {
 /* #endregion */
 
 /* #region TOP NAV */
+.TopNav {
+    z-index: 3;
+}
+
 .NavContainer {
     background-color: #6b5731;
     vertical-align: middle;
@@ -262,19 +266,28 @@ body {
 .Highlight:nth-child(2n) {
     background-color: #e0bd7d98;
 }
-/* #endregion */
 
-/* #region HOME */
 h3{
     text-align: center;
 }
+/* #endregion */
 
+/* #region HOME */
 .Intro p{
     text-align: justify;
+    word-break:normal;
 }
 
 #facts {
     text-align: center;
+}
+/* #endregion */
+
+/* #region FIND US */
+.Map {
+    background-color: black;
+    height: 30vw;
+    width: 80%;
 }
 /* #endregion */
 
