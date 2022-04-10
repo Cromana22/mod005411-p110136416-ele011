@@ -10,11 +10,10 @@
     
         <link rel="stylesheet" href="css/hellostamford.css">
     
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <link rel="preload" href="/images/bridge-stamford-panorama.jpg" as="image">
 
         <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
@@ -45,7 +44,7 @@
                     </div>
                     <div class="TopNavContainer Right">
                         <div class="MenuOpener VerticalCenter" id="menuopener">
-                            <a class="VerticalCenter" href="#"><span class="material-icons">menu</span></a>
+                            <a class="VerticalCenter" href="#" aria-label="MenuOpener"><i class="fa-solid fa-bars"></i></a>
                         </div>
                     </div>
                 </div>
@@ -54,10 +53,10 @@
                         <div class="Menu" id="menu">
                             <ul>
                                 <li>
-                                    <div class="MenuOpener" id="menuopener2">
+                                    <div class="MenuOpener" id="menuopener2" aria-label="MenuOpener">
                                         <a href="#">
                                             <div class="IconHolder">
-                                                <span class="material-icons">close</span>
+                                                <i class="fa-solid fa-xmark"></i>
                                             </div>
                                         </a>
                                     </div>
@@ -78,7 +77,7 @@
             <div class="ContentTitle HorizontalCenter ReadAloud">
                 <h2>
                     &nbsp Find Us &nbsp
-                    <a id="SpeakContentLink" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                    <a id="SpeakContentLink" href="#" aria-label="Text To Speech"><i class="fa-solid fa-volume-high"></i></a>
                 </h2>
             </div>
 
@@ -99,7 +98,7 @@
                 <div class="Highlight Fullwidth">
                     <div class="Container HorizontalCenter">
                         <div id="LocationPrompt">
-                            <button id="locationPermsButton">Allow Location Access</button>
+                            <button id="locationPermsButton">Allow Location Access</button><br /><br />
                         </div>
                         <div id="map" class="Map"></div>
                         <div class="MapNotShown">Maps cannot be shown at this resolution. Please rotate your device to landscape mode.</div>
@@ -112,22 +111,25 @@
                 <div class="FooterContainer VerticalCenter">
                     <div>&copy; P110136416 2022</div>
                     <div class="FillRemainder">
-                        <a class="VerticalCenter" href="https://twitter.com/stamfordwebsite">
+                        <a class="VerticalCenter" href="https://twitter.com/stamfordwebsite" aria-label="Twitter">
                             <i class="fa-brands fa-twitter-square"></i>
                         </a>
-                        <a class="VerticalCenter" href="https://www.facebook.com/StamfordUK/">
+                        <a class="VerticalCenter" href="https://www.facebook.com/StamfordUK/" aria-label="Facebook">
                             <i class="fa-brands fa-facebook-square"></i>
                         </a>
-                        <a class="VerticalCenter" href="https://www.instagram.com/prettylittlestamford/?hl=en">
+                        <a class="VerticalCenter" href="https://www.instagram.com/prettylittlestamford/?hl=en" aria-label="Instagram">
                             <i class="fa-brands fa-instagram-square"></i>
                         </a>
-                        <a class="VerticalCenter" href="https://www.youtube.com/watch?v=eR8tg18G7KQ">
+                        <a class="VerticalCenter" href="https://www.youtube.com/watch?v=eR8tg18G7KQ" aria-label="YouTube">
                             <i class="fa-brands fa-youtube-square"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     </body>
 
 </html>

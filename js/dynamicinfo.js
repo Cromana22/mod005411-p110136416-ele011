@@ -2,7 +2,6 @@ function loadData(method, url) {
     return new Promise(function (resolve, reject) {
         let xhr = new XMLHttpRequest();
         xhr.open(method, url);
-        //xhr.setRequestHeader("Cache-Control", "no-cache, no-store, max-age=0");
         xhr.onload = function () {
             if (this.status >= 200 && this.status < 300) {
                 resolve(xhr.response); }
@@ -39,7 +38,7 @@ function hotels() {
                 gridItem = document.createElement('div');
                 gridItem.className = 'GridItem HorizontalCenter';
 
-                hname = document.createElement('h4');
+                hname = document.createElement('h3');
                 hname.className = "ReadAloud";
                 hname.innerHTML = hotel.accomodation;
                 gridItem.appendChild(hname);
@@ -52,6 +51,8 @@ function hotels() {
                 himg = document.createElement('img');
                 himg.src = hotel.image;
                 himg.alt = hotel.accomodation;
+                himg.width = 620;
+                himg.height = 465;
                 gridItem.appendChild(himg);
 
                 hdescription = document.createElement('p');
@@ -76,7 +77,7 @@ function events() {
                 gridItem = document.createElement('div');
                 gridItem.className = 'GridItem HorizontalCenter';
 
-                ename = document.createElement('h4');
+                ename = document.createElement('h3');
                 ename.className = 'ReadAloud';
                 ename.innerHTML = event.name+" @ "+event.schedules[0].place.name;
                 gridItem.appendChild(ename);
@@ -128,7 +129,7 @@ function food() {
                 gridItem = document.createElement('div');
                 gridItem.className = 'GridItem HorizontalCenter';
 
-                fname = document.createElement('h4');
+                fname = document.createElement('h3');
                 fname.innerHTML = food.name;
                 fname.className = 'ReadAloud';
                 gridItem.appendChild(fname);
@@ -176,7 +177,6 @@ function food() {
                 gridItem.appendChild(fstarDiv);
 
                 freview = document.createElement('blockquote');
-                freview.className = "Highlight";
                 let freviewArray = "";
                 food.reviews.forEach( review => {
                     freviewArray = freviewArray+'"'+review+'"<br /><br />';
@@ -202,7 +202,7 @@ function histories() {
                 gridItem = document.createElement('div');
                 gridItem.className = 'GridItem HorizontalCenter';
 
-                hname = document.createElement('h4');
+                hname = document.createElement('h3');
                 hname.className =  'ReadAloud';
                 hname.innerHTML = history.name;
                 gridItem.appendChild(hname);

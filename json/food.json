@@ -14,13 +14,6 @@
         "reviews": ["... going back probably tonight for another plate of lamb chops, beautiful!!!", "Fantastic Turkish restaurant in Stamford"]
     },
     {
-        "name": "Cloisters",
-        "stars": 4.5,
-        "reviewcount": 711,
-        "cuisine": "Italian, Pizza",
-        "reviews": ["Cheerful friendly and great pizza!"]
-    },
-    {
         "name": "The Exeter Arms",
         "stars": 5,
         "reviewcount": 92,
@@ -47,13 +40,6 @@
         "reviewcount": 1391,
         "cuisine": "Mediterranean, Turkish",
         "reviews": ["Had the whipped feta and loaded hummus - both amazing and the T-bone steak was great...", "... were a little spicy (I am a wimp) but amazing and the hummus is a must."]
-    },
-    {
-        "name": "Paten & Co",
-        "stars": 4.5,
-        "reviewcount": 276,
-        "cuisine": "Bar, Pub",
-        "reviews": ["... sausage, cauliflower croquettes, lamb kofta etc was superb Staff are soo good...", "... was accommodating and did a meal mash-up which suited them very well."]
     },
     {
         "name": "The Kings Head",
