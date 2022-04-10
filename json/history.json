@@ -10,6 +10,7 @@
         "name": "St Leonard's Priory, Stamford",
         "stars": 4.5,
         "address": "Priory Road",
+        "telephone": "",
         "review": "For a small, by the way, historical attraction, this is a charmer."
     },
     {
@@ -22,7 +23,7 @@
     {
         "name": "St Martin's Church",
         "stars": 4.5,
-        "address": "16, 18 High St",
+        "address": "16-18 High St",
         "telephone": "01780 753356",
         "review": "You will enjoy the experience of the visit for this historic Chapel"
     },

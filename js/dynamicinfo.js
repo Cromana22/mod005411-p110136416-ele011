@@ -80,6 +80,50 @@ function food() {
 function histories() {
     loadData("GET", "./json/history.json")
     .then(data => {
-        console.log(data);
+        const historyGrid = document.getElementById("historyGrid");
+
+        if (historyGrid !== null) {
+            const historyList = JSON.parse(data);
+
+            historyList.forEach(history => {
+                gridItem = document.createElement('div');
+                gridItem.className = 'GridItem HorizontalCenter';
+
+                hname = document.createElement('h4');
+                hname.innerHTML = history.name;
+                gridItem.appendChild(hname);
+
+                haddress = document.createElement('p');
+                haddress.className = 'Address';
+                haddressContent = history.address.replace(", ", "<br />")
+                if (history.telephone !== "") {
+                    haddressContent = haddressContent+'<br />Tel: '+history.telephone;
+                }
+                haddress.innerHTML = haddressContent;
+                gridItem.appendChild(haddress);
+
+                hstarDiv = document.createElement('div');
+                hstarCount = (Math.round(history.stars * 2) / 2).toFixed(1);
+                hstarWhole = Math.trunc(hstarCount);
+                for (let i = 0; i < hstarWhole; i++) {
+                    hstars = document.createElement('i');
+                    hstars.className = 'fa-solid fa-star';
+                    hstarDiv.appendChild(hstars);
+                }
+                if (hstarCount - hstarWhole > 0) {
+                    hstars = document.createElement('i');
+                    hstars.className = 'fa-solid fa-star-half';
+                    hstarDiv.appendChild(hstars);
+                }
+                gridItem.appendChild(hstarDiv);
+
+                if (history.review !== "") {
+                    hreview = document.createElement('quote');
+                    hreview.innerHTML = '"'+history.review+'"';
+                    gridItem.appendChild(hreview);
+                    historyGrid.appendChild(gridItem);
+                }
+            });
+        }
     })
 }

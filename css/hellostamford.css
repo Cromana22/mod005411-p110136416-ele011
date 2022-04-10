@@ -331,6 +331,38 @@ h3{
 }
 /* #endregion */
 
+/* #region HISTORY TO SEE */
+#historyGrid h4 {
+    font-size: larger;
+}
+
+#historyGrid .Address {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center !important;
+}
+
+#historyGrid i {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    color: #fbf73b;
+    font-size: xx-large;
+    text-shadow:
+        1px 0px 0px #493b22,
+        -1px 0px 0px #493b22,
+        0px 1px 0px #493b22,
+        0px -1px 0px #493b22,
+        1px 1px 0px #493b22,
+        -1px -1px 0px #493b22,
+        1px -1px 0px #493b22,
+        -1px 1px 0px #493b22;
+}
+/* #endregion */
+
 /* #region FIND US */
 .Map {
     background-color: black;
