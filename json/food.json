@@ -11,49 +11,49 @@
         "stars": 4.5,
         "reviewcount": 1573,
         "cuisine": "Turkish, Mediterranean",
-        "reviews": ["... going back..probably tonight for another plate of lamb chops.. beautiful!!!", "Fantastic Turkish restaurant in Stamford"]
+        "reviews": ["... going back probably tonight for another plate of lamb chops, beautiful!!!", "Fantastic Turkish restaurant in Stamford"]
     },
     {
         "name": "Cloisters",
         "stars": 4.5,
         "reviewcount": 711,
         "cuisine": "Italian, Pizza",
-        "reviews": ["Cheerful friendly and great pizza!", "... with pasta dishes leave a bit, as i..."]
+        "reviews": ["Cheerful friendly and great pizza!"]
     },
     {
         "name": "The Exeter Arms",
         "stars": 5,
         "reviewcount": 92,
         "cuisine": "British",
-        "reviews": ["We had the beef; beautifully cooked, tasty interesting vegetables, the best r...", "Lovely helpful staff, great service and excellent food, the beef was superb."]
+        "reviews": ["We had the beef; beautifully cooked, tasty interesting vegetables, the best...", "Lovely helpful staff, great service and excellent food, the beef was superb."]
     },
     {
         "name": "The Slanted Door",
         "stars": 4.5,
         "reviewcount": 152,
         "cuisine": "British, Healthy",
-        "reviews": ["There is a separate vegan/vegetarian menu.", "Excellent vegan range, though vegan pud..."]
+        "reviews": ["There is a separate vegan/vegetarian menu.", "Excellent vegan range, though vegan pud was a bit dry..."]
     },
     {
         "name": "Lambert's",
         "stars": 4.5,
         "reviewcount": 279,
         "cuisine": "Cafe, British",
-        "reviews": ["A long wait for a table, but great sandwich", "I had eggs benedict, personally their only downfall is not enough sauce and t..."]
+        "reviews": ["A long wait for a table, but great sandwich", "I had eggs benedict, personally their only downfall is not enough sauce..."]
     },
     {
         "name": "The Mad Turk",
         "stars": 4.5,
         "reviewcount": 1391,
         "cuisine": "Mediterranean, Turkish",
-        "reviews": ["Had the whipped feta and loaded hummus - both amazing and the T-bone steak wa...", "... were a little spicy (I am a wimp) but amazing and the hummus is a must."]
+        "reviews": ["Had the whipped feta and loaded hummus - both amazing and the T-bone steak was great...", "... were a little spicy (I am a wimp) but amazing and the hummus is a must."]
     },
     {
         "name": "Paten & Co",
         "stars": 4.5,
         "reviewcount": 276,
         "cuisine": "Bar, Pub",
-        "reviews": ["... sausage, cauliflower croquettes, lamb kofta etc was superb Staff are soo ...", "... was accommodating and did a meal mash-up which suited them very well."]
+        "reviews": ["... sausage, cauliflower croquettes, lamb kofta etc was superb Staff are soo good...", "... was accommodating and did a meal mash-up which suited them very well."]
     },
     {
         "name": "The Kings Head",
@@ -67,6 +67,6 @@
         "stars": 4.5,
         "reviewcount": 758,
         "cuisine": "Bar, Pizza",
-        "reviews": ["We shared the meaty Mac and cheese and the duck pizza and I can honestly say...", "My husband had the pizza wrap with duck, spring onions and hoisin sauce which..."]
+        "reviews": ["We shared the meaty Mac and cheese and the duck pizza and I can honestly say it was amazing...", "My husband had the pizza wrap with duck, spring onions and hoisin sauce..."]
     }
 ]

@@ -73,7 +73,59 @@ function events() {
 function food() {
     loadData("GET", "./json/food.json")
     .then(data => {
-        console.log(data);
+        const foodGrid = document.getElementById("foodGrid");
+
+        if (foodGrid !== null) {
+            const foodList = JSON.parse(data);
+
+            foodList.forEach(food => {
+                gridItem = document.createElement('div');
+                gridItem.className = 'GridItem HorizontalCenter';
+
+                fname = document.createElement('h4');
+                fname.innerHTML = food.name;
+                gridItem.appendChild(fname);
+
+                fcuisine = document.createElement('p');
+                fcuisine.className = "cuisine";
+                const tags = food.cuisine.split(", ");
+                tags.forEach( tag => {
+                    ftag = document.createElement('span');
+                    ftag.innerHTML = tag;
+                    fcuisine.appendChild(ftag);
+                })
+                gridItem.appendChild(fcuisine);
+
+                fstarDiv = document.createElement('div');
+                fstarCount = (Math.round(food.stars * 2) / 2).toFixed(1);
+                fstarWhole = Math.trunc(fstarCount);
+                for (let i = 0; i < fstarWhole; i++) {
+                    fstars = document.createElement('i');
+                    fstars.className = 'fa-solid fa-star';
+                    fstarDiv.appendChild(fstars);
+                }
+                if (fstarCount - fstarWhole > 0) {
+                    fstars = document.createElement('i');
+                    fstars.className = 'fa-solid fa-star-half';
+                    fstarDiv.appendChild(fstars);
+                }
+                freviews = document.createElement('p');
+                freviews.className = 'reviewCount';
+                freviews.innerHTML = "("+food.reviewcount+" reviews)";
+                fstarDiv.appendChild(freviews);
+                gridItem.appendChild(fstarDiv);
+
+                freview = document.createElement('blockquote');
+                let freviewArray = "";
+                food.reviews.forEach( review => {
+                    freviewArray = freviewArray+'"'+review+'"<br /><br />';
+                });
+                freview.innerHTML = freviewArray;
+                gridItem.appendChild(freview);
+               
+                foodGrid.appendChild(gridItem);
+            });
+        }
     })
 }
 
@@ -121,8 +173,9 @@ function histories() {
                     hreview = document.createElement('quote');
                     hreview.innerHTML = '"'+history.review+'"';
                     gridItem.appendChild(hreview);
-                    historyGrid.appendChild(gridItem);
                 }
+
+                historyGrid.appendChild(gridItem);
             });
         }
     })
