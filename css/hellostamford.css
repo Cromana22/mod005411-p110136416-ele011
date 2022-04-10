@@ -72,7 +72,6 @@ body {
 .Grid {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .GridItem {
@@ -275,6 +274,10 @@ h3{
 /* #endregion */
 
 /* #region HOME */
+.Home .Grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .Intro p{
     text-align: justify;
     word-break: normal;
@@ -304,6 +307,10 @@ h3{
 /* #endregion */
 
 /* #region PLACES TO STAY */
+.Places .Grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 #hotelGrid {
     text-align: justify;
 }
@@ -332,6 +339,10 @@ h3{
 /* #endregion */
 
 /* #region HISTORY TO SEE */
+.History .Grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 #historyGrid h4 {
     font-size: larger;
 }
@@ -364,6 +375,10 @@ h3{
 /* #endregion */
 
 /* #region FOOD AND DRINK */
+.Food .Grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 #foodGrid h4 {
     font-size: larger;
     margin-bottom: 0;
@@ -410,11 +425,16 @@ h3{
 #foodGrid blockquote {
     margin: 0;
     font-style: italic;
-    padding-top: 20px
+    padding-top: 20px;
+    text-align: justify;
 }
 /* #endregion */
 
 /* #region EVENTS */
+.Events .Grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 #eventGrid h4 {
     font-size: larger;
     margin: 0;
