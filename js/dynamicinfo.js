@@ -40,11 +40,12 @@ function hotels() {
                 gridItem.className = 'GridItem HorizontalCenter';
 
                 hname = document.createElement('h4');
+                hname.className = "ReadAloud";
                 hname.innerHTML = hotel.accomodation;
                 gridItem.appendChild(hname);
 
                 haddress = document.createElement('p');
-                haddress.className = 'Address';
+                haddress.className = 'Address ReadAloud';
                 haddress.innerHTML = hotel.address;
                 gridItem.appendChild(haddress);
 
@@ -76,27 +77,27 @@ function events() {
                 gridItem.className = 'GridItem HorizontalCenter';
 
                 ename = document.createElement('h4');
+                ename.className = 'ReadAloud';
                 ename.innerHTML = event.name+" @ "+event.schedules[0].place.name;
                 gridItem.appendChild(ename);
 
                 eperformances = document.createElement('div');
-                eperformances.className = "Fullwidth Performances"
-
-                eperformanceTitle = document.createElement('h5');
-                eperformances.appendChild(eperformanceTitle);
+                eperformances.className = "Fullwidth Performances ReadAloud"
 
                 const performances = event.schedules[0].performances;
                 performances.forEach( performance => {
                     ep = document.createElement('div');
 
                     elink = document.createElement('a');
-                    elink.className = "Highlight Fullwidth Performance"
+                    elink.className = "Highlight Fullwidth Performance";
                     elink.href = performance.links.url;
 
                     edate = new Date(performance.ts);
                     eprice = new Number(performance.tickets[0].min_price);
+                    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+
                     if (eprice > 0) {
-                        etext = edate.toLocaleDateString()+' (£'+eprice.toFixed(2)+')';
+                        etext = edate.toLocaleDateString('en-GB', options)+' (£'+eprice.toFixed(2)+')';
                     }
                     else {
                         etext = edate.toLocaleDateString()+' (free)';
@@ -129,6 +130,7 @@ function food() {
 
                 fname = document.createElement('h4');
                 fname.innerHTML = food.name;
+                fname.className = 'ReadAloud';
                 gridItem.appendChild(fname);
 
                 fcuisine = document.createElement('p');
@@ -140,6 +142,12 @@ function food() {
                     fcuisine.appendChild(ftag);
                 })
                 gridItem.appendChild(fcuisine);
+
+                cuisineText = document.createElement('div');
+                cuisineText.style.display = 'none';
+                cuisineText.className = 'ReadAloud';
+                cuisineText.innerHTML = "The cuisine is "+food.cuisine;
+                gridItem.appendChild(cuisineText);
 
                 fstarDiv = document.createElement('div');
                 fstarCount = (Math.round(food.stars * 2) / 2).toFixed(1);
@@ -154,6 +162,13 @@ function food() {
                     fstars.className = 'fa-solid fa-star-half';
                     fstarDiv.appendChild(fstars);
                 }
+
+                starText = document.createElement('div');
+                starText.style.display = 'none';
+                starText.className = 'ReadAloud';
+                starText.innerHTML = "Rated "+food.stars+" stars with "+food.reviewcount+" reviews";
+                gridItem.appendChild(starText);
+
                 freviews = document.createElement('p');
                 freviews.className = 'reviewCount';
                 freviews.innerHTML = "("+food.reviewcount+" reviews)";
@@ -188,11 +203,12 @@ function histories() {
                 gridItem.className = 'GridItem HorizontalCenter';
 
                 hname = document.createElement('h4');
+                hname.className =  'ReadAloud';
                 hname.innerHTML = history.name;
                 gridItem.appendChild(hname);
 
                 haddress = document.createElement('p');
-                haddress.className = 'Address';
+                haddress.className = 'Address ReadAloud';
                 haddressContent = history.address.replace(", ", "<br />")
                 if (history.telephone !== "") {
                     haddressContent = haddressContent+'<br />Tel: '+history.telephone;
@@ -215,8 +231,16 @@ function histories() {
                 }
                 gridItem.appendChild(hstarDiv);
 
+                hstarCountText = "Rated "+history.stars+" stars,";
+                hstarTextDiv = document.createElement('div');
+                hstarTextDiv.style.display = 'none';
+                hstarTextDiv.className = 'ReadAloud';
+                hstarTextDiv.innerHTML = hstarCountText;
+                gridItem.appendChild(hstarTextDiv);
+
                 if (history.review !== "") {
                     hreview = document.createElement('quote');
+                    hreview.className = 'ReadAloud';
                     hreview.innerHTML = '"'+history.review+'"';
                     gridItem.appendChild(hreview);
                 }

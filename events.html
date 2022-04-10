@@ -28,6 +28,7 @@
         <script id="navmenu" src="js/navmenu.js" defer></script>
         <script id="dynamicevents" src="js/dynamicinfo.js"></script>
         <script id="dynamicevent" defer>events()</script>
+        <script src="js/texttospeech.js" defer ></script>
     </head>
 
     <body>
@@ -73,12 +74,15 @@
                 </div>
             </div>
 
-            <div class="ContentTitle HorizontalCenter">
-                <h2>&nbsp Upcoming Events &nbsp</h2>
+            <div class="ContentTitle HorizontalCenter ReadAloud">
+                <h2>
+                    &nbsp Upcoming Events &nbsp
+                    <a id="SpeakContentLink" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                </h2>
             </div>
 
             <div class="MainContent">
-                <div class="Fullwidth HorizontalCenter Descriptor">
+                <div class="Fullwidth HorizontalCenter Descriptor ReadAloud">
                     <p>There is always something going on in Stamford!</p>
                 </div>
 

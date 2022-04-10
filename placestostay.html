@@ -28,6 +28,7 @@
         <script id="navmenu" src="js/navmenu.js" defer></script>
         <script id="dynamichotels" src="js/dynamicinfo.js"></script>
         <script id="dynamichotel" defer>hotels()</script>
+        <script src="js/texttospeech.js" defer ></script>
     </head>
 
     <body>
@@ -73,12 +74,15 @@
                 </div>
             </div>
 
-            <div class="ContentTitle HorizontalCenter">
-                <h2>&nbsp Places To Stay &nbsp</h2>
+            <div class="ContentTitle HorizontalCenter ReadAloud">
+                <h2>
+                    &nbsp Places To Stay &nbsp
+                    <a id="SpeakContentLink" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                </h2>
             </div>
 
             <div class="MainContent">
-                <div class="Fullwidth HorizontalCenter Descriptor">
+                <div class="Fullwidth HorizontalCenter Descriptor ReadAloud">
                     <p>Why not find somewhere to lay your head and extend your stay?</p>
                 </div>
 

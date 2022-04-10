@@ -28,6 +28,7 @@
         <script id="navmenu" src="js/navmenu.js" defer></script>
         <script id="dynamicfoods" src="js/dynamicinfo.js"></script>
         <script id="dynamicfood" defer>food()</script>
+        <script src="js/texttospeech.js" defer ></script>
     </head>
 
     <body>
@@ -73,12 +74,15 @@
                 </div>
             </div>
 
-            <div class="ContentTitle HorizontalCenter">
-                <h2>&nbsp Food and Drink &nbsp</h2>
+            <div class="ContentTitle HorizontalCenter ReadAloud">
+                <h2>
+                    &nbsp Food and Drink &nbsp
+                    <a id="SpeakContentLink" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                </h2>
             </div>
 
             <div class="MainContent">
-                <div class="Fullwidth HorizontalCenter Descriptor">
+                <div class="Fullwidth HorizontalCenter Descriptor ReadAloud">
                     <p>Stamford boasts some top rated eateries to enjoy. With so many on offer, we guarantee you can find a cuisine to your taste.</p>
                 </div>
 

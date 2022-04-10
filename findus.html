@@ -29,6 +29,7 @@
         <script id="weatherwidget" src="js/weatherwidget.js" defer></script>
         <script id="googlemaps" src="js/googlemaps.js" ></script>
         <script id="locButton" src="js/locButton.js" defer></script>
+        <script src="js/texttospeech.js" defer ></script>
     </head>
 
     <body>
@@ -74,8 +75,11 @@
                 </div>
             </div>
             
-            <div class="ContentTitle HorizontalCenter">
-                <h2>&nbsp Find Us &nbsp</h2>
+            <div class="ContentTitle HorizontalCenter ReadAloud">
+                <h2>
+                    &nbsp Find Us &nbsp
+                    <a id="SpeakContentLink" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                </h2>
             </div>
 
             <div class="MainContent">
@@ -85,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="Highlight Intro Fullwidth">
+                <div class="Highlight Intro Fullwidth ReadAloud">
                     <div class="Container HorizontalCenter">
                         <p><b>Access By Road:</b> Stamford is just off the A1 running north-south, about halfway between Leeds and London, and accessible via the A47/A43 going east-west.</p>
                         <p><b>Access By Train:</b> Stamford has its own railway station served by Cross Country Trains with connections from Peterborough, Leicester, Cambridge and Birmingham.</p>

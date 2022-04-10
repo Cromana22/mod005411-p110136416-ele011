@@ -28,6 +28,7 @@
         <script id="navmenu" src="js/navmenu.js" defer></script>
         <script id="dynamichistorys" src="js/dynamicinfo.js"></script>
         <script id="dynamichistory" defer>histories()</script>
+        <script src="js/texttospeech.js" defer ></script>
     </head>
 
     <body>
@@ -73,19 +74,20 @@
                 </div>
             </div>
 
-            <div class="ContentTitle HorizontalCenter">
-                <h2>&nbsp History To See &nbsp</h2>
+            <div class="ContentTitle HorizontalCenter ReadAloud">
+                <h2>
+                    &nbsp History To See &nbsp
+                    <a id="SpeakContentLink" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                </h2>
             </div>
 
             <div class="MainContent">
-                <div class="Fullwidth HorizontalCenter Descriptor">
+                <div class="Fullwidth HorizontalCenter Descriptor ReadAloud">
                     <p>Stamford is full of historic sites well worth a visit - why not track some of them down?</p>
                 </div>
 
                 <div class="Highlight Fullwidth History">
-                    <div class="Grid Container" id="historyGrid">
-
-                    </div>
+                    <div class="Grid Container" id="historyGrid"></div>
                 </div>
             </div>
 

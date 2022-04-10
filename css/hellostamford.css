@@ -356,6 +356,36 @@ body {
     line-height: 2.4em;
 }
 
+.ContentTitle i {
+    margin-left: 10px;
+}
+
+.ContentTitle a {
+    color: inherit;
+    text-shadow:
+    1px 0px 0px white,
+    -1px 0px 0px white,
+    0px 1px 0px white,
+    0px -1px 0px white,
+    1px 1px 0px white,
+    -1px -1px 0px white,
+    1px -1px 0px white,
+    -1px 1px 0px white;
+}
+
+.ContentTitle a:hover {
+    color: white;
+    text-shadow:
+        1px 0px 0px #493b22,
+        -1px 0px 0px #493b22,
+        0px 1px 0px #493b22,
+        0px -1px 0px #493b22,
+        1px 1px 0px #493b22,
+        -1px -1px 0px #493b22,
+        1px -1px 0px #493b22,
+        -1px 1px 0px #493b22;
+}
+
 .Highlight:nth-child(1n) {
     background-color: #e6cea298;
 }
