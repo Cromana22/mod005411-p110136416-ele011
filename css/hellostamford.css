@@ -89,6 +89,50 @@ body {
 .GridItem :hover {
     box-shadow: none;
 }
+
+@media (min-width: 720px) and (max-width: 1119px) {     /* 3 column grid max */
+    .Home .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .History .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .Places .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .Food .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .Events .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1120px) {     /* 4-5 column grid max */
+    .Home .Grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .History .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .Places .Grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .Food .Grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .Events .Grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
 /* #endregion */
 
 /* #region MODALS */
@@ -250,6 +294,57 @@ body {
 .MenuRight {
     float: right !important;
 }
+
+@media (max-width: 975px) {     /* Menu Hide and Show */
+    .Nav .Menu {
+      display: none;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      z-index: 1;
+      background-color: #6b5731;
+      width: fit-content;
+      height: 100vh;
+      object-fit: contain;
+      overflow-y: scroll;
+      scrollbar-width: 0;               /* all to hide a scrollbar... */
+      -ms-overflow-style: none;         /* all to hide a scrollbar... */
+    }
+
+    .Menu::-webkit-scrollbar {          /* all to hide a scrollbar... */
+        width: 0;
+        height: 0;
+    }
+
+    #menuopener2 a {
+        text-align: right !important;
+        border-bottom: solid;
+        border-width: 1px;
+    }
+
+    .MenuRight {
+        float: none !important;
+    }
+}
+
+@media (min-width: 975px) {     /* Menu Hide and Show */
+    .Nav li {
+        float: left;
+    }
+
+    .MenuOpener {
+        display: none;
+    }
+
+    .Nav .Menu {
+        display: block;
+    }
+
+    .Nav .Menu a {
+        text-align: center;
+        font-size: 1em;
+    }
+}
 /* #endregion */
 
 /* #region MAIN CONTENT */
@@ -258,6 +353,7 @@ body {
     font-size: 1em;
     text-decoration: underline overline;
     text-underline-offset: 4px;
+    line-height: 2.4em;
 }
 
 .Highlight:nth-child(1n) {
@@ -271,13 +367,14 @@ body {
 h3{
     text-align: center;
 }
+
+.Descriptor p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* #endregion */
 
 /* #region HOME */
-.Home .Grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 .Intro p{
     text-align: justify;
     word-break: normal;
@@ -307,10 +404,6 @@ h3{
 /* #endregion */
 
 /* #region PLACES TO STAY */
-.Places .Grid {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 #hotelGrid {
     text-align: justify;
 }
@@ -339,10 +432,6 @@ h3{
 /* #endregion */
 
 /* #region HISTORY TO SEE */
-.History .Grid {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 #historyGrid h4 {
     font-size: larger;
 }
@@ -375,13 +464,10 @@ h3{
 /* #endregion */
 
 /* #region FOOD AND DRINK */
-.Food .Grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
 #foodGrid h4 {
-    font-size: larger;
+    font-size: 1.5rem;
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .cuisine {
@@ -426,15 +512,13 @@ h3{
     margin: 0;
     font-style: italic;
     padding-top: 20px;
-    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
 }
 /* #endregion */
 
 /* #region EVENTS */
-.Events .Grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
 #eventGrid h4 {
     font-size: larger;
     margin: 0;
@@ -469,7 +553,24 @@ h3{
 .Map {
     background-color: black;
     height: 30vw;
-    width: 80%;
+    width: 100%;
+}
+
+.MapNotShown {
+    display: none;
+}
+
+@media (max-width: 500px) {      /* map hide and show */
+    .Map {
+        display: none;
+    }
+
+    .MapNotShown {
+        display: block;
+        border: #3b3b3b 1px solid;
+        padding: 5px;
+        background-color: #f0e3c6;
+    }
 }
 /* #endregion */
 
@@ -529,54 +630,3 @@ h3{
     text-decoration: none;
 }
 /* #endregion */
-
-@media (max-width: 975px) {     /*Phones*/
-    .Nav .Menu {
-      display: none;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-      z-index: 1;
-      background-color: #6b5731;
-      width: fit-content;
-      height: 100vh;
-      object-fit: contain;
-      overflow-y: scroll;
-      scrollbar-width: 0;               /* all to hide a scrollbar... */
-      -ms-overflow-style: none;         /* all to hide a scrollbar... */
-    }
-
-    .Menu::-webkit-scrollbar {          /* all to hide a scrollbar... */
-        width: 0;
-        height: 0;
-    }
-
-    #menuopener2 a {
-        text-align: right !important;
-        border-bottom: solid;
-        border-width: 1px;
-    }
-
-    .MenuRight {
-        float: none !important;
-    }
-}
-
-@media (min-width: 975px) {     /*Desktop*/
-    .Nav li {
-        float: left;
-    }
-
-    .MenuOpener {
-        display: none;
-    }
-
-    .Nav .Menu {
-        display: block;
-    }
-
-    .Nav .Menu a {
-        text-align: center;
-        font-size: 1em;
-    }
-}

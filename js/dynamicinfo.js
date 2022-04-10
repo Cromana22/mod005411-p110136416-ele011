@@ -161,6 +161,7 @@ function food() {
                 gridItem.appendChild(fstarDiv);
 
                 freview = document.createElement('blockquote');
+                freview.className = "Highlight";
                 let freviewArray = "";
                 food.reviews.forEach( review => {
                     freviewArray = freviewArray+'"'+review+'"<br /><br />';
