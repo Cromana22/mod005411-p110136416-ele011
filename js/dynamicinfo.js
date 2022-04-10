@@ -66,7 +66,52 @@ function hotels() {
 function events() {
     loadData("GET", "./json/events.json")
     .then(data => {
-        console.log(data);
+        const eventGrid = document.getElementById("eventGrid");
+
+        if (eventGrid !== null) {
+            const eventList = JSON.parse(data);
+
+            eventList.forEach(event => {
+                gridItem = document.createElement('div');
+                gridItem.className = 'GridItem HorizontalCenter';
+
+                ename = document.createElement('h4');
+                ename.innerHTML = event.name+" @ "+event.schedules[0].place.name;
+                gridItem.appendChild(ename);
+
+                eperformances = document.createElement('div');
+                eperformances.className = "Fullwidth Performances"
+
+                eperformanceTitle = document.createElement('h5');
+                eperformances.appendChild(eperformanceTitle);
+
+                const performances = event.schedules[0].performances;
+                performances.forEach( performance => {
+                    ep = document.createElement('div');
+
+                    elink = document.createElement('a');
+                    elink.className = "Highlight Fullwidth Performance"
+                    elink.href = performance.links.url;
+
+                    edate = new Date(performance.ts);
+                    eprice = new Number(performance.tickets[0].min_price);
+                    if (eprice > 0) {
+                        etext = edate.toLocaleDateString()+' (£'+eprice.toFixed(2)+')';
+                    }
+                    else {
+                        etext = edate.toLocaleDateString()+' (free)';
+                    }
+                    ep.innerHTML = etext;
+
+                    elink.appendChild(ep);
+                    eperformances.appendChild(elink);
+                })
+
+                gridItem.appendChild(eperformances);
+
+                eventGrid.appendChild(gridItem);
+            });
+        }
     })
 }
 
